@@ -28,8 +28,7 @@ const Home=()=>
         showThumbs={false}
         autoPlay={true}
         transitionTime={3}
-        infiniteLoop={true}
-        showStatus={false}
+        
         >
             {
                         popularMovies.map(movie => (
